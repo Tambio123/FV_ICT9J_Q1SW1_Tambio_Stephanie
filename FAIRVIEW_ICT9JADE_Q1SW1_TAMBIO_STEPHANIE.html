@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Top Spotify Artist</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: linear-gradient(135deg, #220056, #45006d, #930180, #000000);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+  }
+
+  .card {
+    width: 500px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.55);
+    text-align: center;
+    padding: 14px 0;
+  }
+
+  header h1 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+
+  .artist-photo {
+    display: block;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    margin: 25px auto 10px;
+    border-radius: 6px;
+    background: #000000; /* placeholder */
+  }
+
+  .artist-name {
+    text-align: center;
+    font-style: bold;
+    font-size: 22px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+  }
+
+  .bio-box {
+    background: rgba(44, 0, 82, 0.35);
+    margin: 0 20px 20px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #130036;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .songs-section {
+    background: rgba(88, 0, 93, 0.55);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+  }
+
+  .song {
+    text-align: center;
+    width: 30%;
+  }
+
+  .song img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 4px;
+    background: #ccc; /* placeholder */
+    display: block;
+    margin: 0 auto 6px;
+  }
+
+  .song a {
+    font-size: 11px;
+    color: #003aa5;
+  }
+
+  footer {
+    text-align: bottom;
+    padding: 10px;
+    background: rgba(0, 4, 84, 0.35);
+    font-size: 11px;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <header>
+      <h1>(♫) My Top Spotify Artist</h1>
+    </header>
+
+    <img class="artist-photo" src="https://i1.sndcdn.com/artworks-jBPqttkS1kc9zDDb-eNzFlw-t500x500.jpg" alt="5mewmet Photo">
+    <div class="artist-name">5mewmet</div>
+
+    <div class="bio-box">
+      5mewmet is a russian artist with a rock/pop type music that has dark meanings
+    </div>
+
+    <div class="songs-section">
+      <div class="song">
+        <img src="https://i.scdn.co/image/ab67616d0000b27398316d6151091f3431feba3b" alt="Song 1">
+        <a href="#">LOLI</a>
+      </div>
+      <div class="song">
+        <img src="https://cdn-images.dzcdn.net/images/cover/aec76123d7af9cc0bb66aca8f52bef11/0x1900-000000-80-0-0.jpg" alt="Song 2">
+        <a href="#">pizza from italia</a>
+      </div>
+      <div class="song">
+        <img src="https://i.ytimg.com/vi/YdDmiDRrwm8/maxresdefault.jpg" alt="Song 3">
+        <a href="#">GIVENCHY</a>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 My Favorite Playlist | Created by Stephanie Tambio
+    </footer>
+  </div>
+
+</body>
+</html>
